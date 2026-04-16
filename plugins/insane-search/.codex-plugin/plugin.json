@@ -1,0 +1,50 @@
+{
+  "name": "insane-search",
+  "version": "0.1.0",
+  "description": "Codex-first blocked-web access skill with public endpoint routing, Jina fallback, and browser escalation.",
+  "author": {
+    "name": "sinmb79",
+    "email": "sinmb79@users.noreply.github.com",
+    "url": "https://github.com/sinmb79"
+  },
+  "homepage": "https://github.com/sinmb79/codex-insane-search",
+  "repository": "https://github.com/sinmb79/codex-insane-search",
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "search",
+    "web-access",
+    "jina",
+    "playwright",
+    "yt-dlp",
+    "twitter",
+    "reddit",
+    "hacker-news",
+    "naver"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Insane Search",
+    "shortDescription": "Codex search escalation for blocked pages, public endpoints, and browser fallback",
+    "longDescription": "Use Insane Search to help Codex fetch stubborn public content by preferring known public endpoints, Jina Reader, metadata extraction, and browser fallback in a consistent 4-phase search chain.",
+    "developerName": "sinmb79",
+    "category": "Coding",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/sinmb79/codex-insane-search",
+    "privacyPolicyURL": "https://github.com/sinmb79/codex-insane-search/blob/main/README.md",
+    "termsOfServiceURL": "https://github.com/sinmb79/codex-insane-search/blob/main/LICENSE",
+    "defaultPrompt": [
+      "Summarize this blocked article with the cheapest method first",
+      "Read a public profile or post from a difficult platform",
+      "Use a public endpoint before scraping a JS-heavy page"
+    ],
+    "brandColor": "#111827",
+    "composerIcon": "./assets/insane-search-small.svg",
+    "logo": "./assets/insane-search-small.svg",
+    "screenshots": []
+  }
+}
