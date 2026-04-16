@@ -105,3 +105,12 @@ powershell -ExecutionPolicy Bypass -File .\scripts\validate.ps1
 - Original inspiration: [fivetaku/insane-search](https://github.com/fivetaku/insane-search)
 - Jina Reader docs: [jina.ai/reader](https://jina.ai/ko/reader/)
 - Official Hacker News API: [github.com/HackerNews/API](https://github.com/HackerNews/API)
+
+## Referenced GitHub Work
+
+This repository is an original Codex-oriented rewrite, but it was informed by a small set of public GitHub references:
+
+- [`fivetaku/insane-search`](https://github.com/fivetaku/insane-search): the main product and workflow inspiration for the blocked-web access idea
+- [`HackerNews/API`](https://github.com/HackerNews/API): the official reference for Hacker News public endpoint behavior used in the docs
+
+No external repository code is vendored here. The implementation, manifest shape, PowerShell install flow, and Codex skill packaging were rebuilt for the Codex plugin workflow.

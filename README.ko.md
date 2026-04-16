@@ -88,3 +88,12 @@ powershell -ExecutionPolicy Bypass -File .\scripts\install-local.ps1
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\scripts\validate.ps1
 ```
+
+## 참조한 GitHub 작업
+
+이 저장소는 Codex 기준으로 다시 작성한 구현이지만, 아래 공개 GitHub 자료를 명시적으로 참고했습니다.
+
+- [`fivetaku/insane-search`](https://github.com/fivetaku/insane-search): 막히는 웹 접근이라는 제품 아이디어와 기본 워크플로 영감
+- [`HackerNews/API`](https://github.com/HackerNews/API): 문서에 반영한 Hacker News 공개 엔드포인트 기준
+
+외부 저장소 코드를 그대로 가져오지는 않았습니다. 실제 구현, 매니페스트 구성, PowerShell 설치 흐름, Codex용 skill 포장은 이 저장소에서 다시 만들었습니다.
